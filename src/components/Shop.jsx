@@ -1,11 +1,15 @@
 import React from 'react'
+import Items from './Items'
 import Nav from './Nav'
 
 const Shop = () => {
   return (
-    <div>
-        <Nav/>
-    </div>
+    <>
+    <Nav/>
+    <section>
+        <Items/>
+    </section>
+    </>
   )
 }
 
