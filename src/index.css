@@ -20,7 +20,9 @@
   --text-font: 'Poppins', sans-serif;
   --transition: 0.3s ease;
   
-
+}
+html{
+  scroll-behavior: smooth;
 }
 section{
   width: 100%;

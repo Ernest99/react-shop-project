@@ -45,6 +45,8 @@
     gap: 10px;
     -moz-gap: 10px;
     -webkit-gap: 10px;
+    padding-top: 1.5rem;
+    margin-top: 2rem;
 }
 .item_box{
     object-fit: cover;
