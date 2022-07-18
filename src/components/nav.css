@@ -1,0 +1,36 @@
+nav{
+    width: 100%;
+    padding: 2rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_l{
+    display: inline-flex;
+    align-items: center;
+    gap: 2rem;
+    -webkit-gap: 2rem;
+}
+.logo{
+    color: var(--black);
+    font-size: 1.2rem;
+    font-family: var(--text-font);
+
+}
+.logo span{
+    font-weight: 600;
+}
+.nav_links{
+    display: flex;
+    margin-left: 2rem;
+}
+.nav_links li{
+    margin-right: 1.5rem;
+}
+.nav_links li a{
+    font-family: var(--text-font);
+    color: var(--black);
+}
+a.active{
+    color: var(--color-primary) !important;
+}
