@@ -3,7 +3,15 @@ import {BiSearchAlt2} from 'react-icons/bi'
 import {BsCartFill} from 'react-icons/bs'
 import {BsFillHeartFill} from 'react-icons/bs'
 import {FaUserCircle} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 import './nav.css'
+// adding background to nav when window is greater than 100
+window.addEventListener('scroll', () =>{
+   const nav = document.querySelector('nav')
+   window.pageYOffset > 50 ? nav.classList.add('nav_bg') : nav.classList.remove('nav_bg')
+})
+
+//navigation
 const Nav = () => {
   return (
     <>
@@ -11,19 +19,19 @@ const Nav = () => {
         <div className="nav_l">
 <a href="/" className='logo'><span>ALPHA</span> STORE</a>
 <ul className="nav_links">
-    <li><a href="/" className='active'>Home</a></li>
-    <li><a href="/shop">Shop</a></li>
-    <li><a href="/feature">Feature</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li><Link to="/" className='active'>Home</Link></li>
+    <li><Link to="/shop">Shop</Link></li>
+    <li><Link to="/feature">Feature</Link><span>New</span></li>
+    <li><Link to="/about">About</Link></li>
+    <li><Link to="/contact">Contact</Link></li>
 </ul>
     
         </div>
         <div className="nav_r">
             <div className="nav_icons">
                 <button><BiSearchAlt2/></button>
-                <button><BsCartFill/></button>
-                <button><BsFillHeartFill/></button>
+                <button><BsCartFill/><span>0</span></button>
+                <button><BsFillHeartFill/><span>2</span></button>
                 <button><FaUserCircle/></button>
             </div>
         </div>

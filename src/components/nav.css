@@ -1,36 +1,100 @@
-nav{
+nav {
     width: 100%;
     padding: 2rem 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: var(--transition);
 }
-.nav_l{
+.nav_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: var(--white);
+    transition: var(--transition);
+    padding: 0 initial;
+}
+.nav_l {
     display: inline-flex;
     align-items: center;
     gap: 2rem;
     -webkit-gap: 2rem;
 }
-.logo{
+.logo {
     color: var(--black);
     font-size: 1.2rem;
     font-family: var(--text-font);
 
 }
-.logo span{
+.logo span {
     font-weight: 600;
 }
-.nav_links{
+.nav_links {
     display: flex;
     margin-left: 2rem;
 }
-.nav_links li{
-    margin-right: 1.5rem;
+.nav_links li {
+    margin-right: 1.8rem;
+    position: relative;
 }
-.nav_links li a{
+.nav_links li span {
+    position: absolute;
+    top: -1rem;
+    width: max-content;
+    font-family: var(--text-font);
+    background: var(--color-secondary);
+    color: var(--white);
+    font-size: 0.6rem;
+    border-radius: 10px;
+    user-select: none;
+    padding: 3px;
+}
+.nav_links li a {
     font-family: var(--text-font);
     color: var(--black);
+    position: relative;
 }
-a.active{
+a.active {
     color: var(--color-primary) !important;
+}
+.nav_icons {
+    display: flex;
+    align-items: center;
+
+}
+.nav_icons button {
+    margin-right: 1rem;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: var(--white);
+    font-size: 1.1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: var(--transition);
+    position: relative;
+}
+.nav_icons button span {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -.8rem;
+    right: -.3rem;
+    color: var(--white);
+    font-size: 0.9rem;
+    font-family: var(--text-font);
+    background: var(--color-primary);
+    text-align: center;
+
+}
+.nav_icons button:hover {
+    color: var(--color-primary);
+    transition: var(--transition);
 }

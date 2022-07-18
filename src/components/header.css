@@ -5,3 +5,25 @@ header{
     background-position: center;
     background-size: cover;
 }
+.content{
+    padding: 2rem 8%;
+    margin-top: 4rem;
+}
+.content h3{
+    font-family: var(--text-font);
+    font-size: 1.2rem;
+}
+.content h1{
+    font-family: var(--head-font);
+    font-size: 4rem;
+}
+.btn{
+    margin-top: 1.5rem;
+}
+.btn-shop{
+    padding: 10px 30px;
+    background: var(--color-primary);
+    border-radius: 30px;
+    color: var(--white);
+    font-family: var(--text-font);
+}
