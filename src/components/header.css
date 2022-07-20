@@ -4,7 +4,10 @@ header {
     background: url('./assets/2.jpg');
     background-position: center;
     background-size: cover;
+   
 }
+
+  
 .content {
     padding: 2rem 8%;
     margin-top: 4.5rem;

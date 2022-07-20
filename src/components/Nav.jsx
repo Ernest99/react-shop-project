@@ -3,6 +3,7 @@ import {BiSearchAlt2} from 'react-icons/bi'
 import {BsCartFill} from 'react-icons/bs'
 import {BsFillHeartFill} from 'react-icons/bs'
 import {FaUserCircle} from 'react-icons/fa'
+import {VscThreeBars} from 'react-icons/vsc'
 import { Link } from 'react-router-dom'
 import './nav.css'
 // adding background to nav when window is greater than 100
@@ -34,6 +35,9 @@ const Nav = () => {
                 <button><BsFillHeartFill/><span>2</span></button>
                 <button><FaUserCircle/></button>
             </div>
+        </div>
+        <div className="toggle">
+          <VscThreeBars className='menu'/>
         </div>
     </nav>
     </>

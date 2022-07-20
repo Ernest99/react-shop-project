@@ -7,6 +7,10 @@ nav {
     transition: var(--transition);
     flex-wrap: wrap;
 }
+.menu{
+    font-size: 1.2rem;
+    display: none;
+}
 .nav_bg {
     position: fixed;
     top: 0;
@@ -22,6 +26,8 @@ nav {
     align-items: center;
     gap: 2rem;
     -webkit-gap: 2rem;
+    position: relative;
+    /* width: 100%; */
 }
 .logo {
     color: var(--black);
@@ -101,4 +107,22 @@ a.active,.nav_links li a:hover {
 .nav_icons button:hover {
     color: var(--color-primary);
     transition: var(--transition);
+}
+
+
+/* media query */
+
+@media (max-width: 915px) {
+    .nav_links{
+        display: none;
+        position: absolute;
+        top: 80%;
+        left: 0;
+        background: red;
+        padding: 1.2rem 0;
+        width: 100%;
+    }
+    .menu{
+        display: block;
+    }
 }
