@@ -16,19 +16,19 @@ const Items = () => {
         },
         {
             id: 2,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-02.jpg.pagespeed.ic._mIojWDfEX.webp',
             name: 'Nike',
             Price: 12.33
         },
         {
             id: 3,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-03.jpg.pagespeed.ic.eOHs429Gtb.webp',
             name: 'Nike',
             Price: 12.33
         },
         {
             id: 4,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-04.jpg.pagespeed.ic.1MaP4euDx9.webp',
             name: 'Nike',
             Price: 12.33
         },
@@ -129,7 +129,10 @@ const Items = () => {
         data.map((({id,Img,name,Price})=>{
             return(
                 <div className="item_box" key={id}>
-        <img src={Img} alt={name} />
+                    <div className="image">
+                    <img src={Img} alt={name} />
+                    </div>
+        
         <div className="detail">
             <h4>{name}</h4>
             <AiOutlineHeart/>

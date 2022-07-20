@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 .item_link ul li{
     display: inline-block;
@@ -50,6 +52,17 @@
 }
 .item_box{
     object-fit: cover;
+    overflow: hidden;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+.item_box:hover img{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+}
+.image{
+    overflow: hidden;
+    transition: var(--transition);
 }
 .detail{
     display: flex;

@@ -5,6 +5,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     transition: var(--transition);
+    flex-wrap: wrap;
 }
 .nav_bg {
     position: fixed;
@@ -14,6 +15,7 @@ nav {
     background: var(--white);
     transition: var(--transition);
     padding: 1.3rem 7%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .nav_l {
     display: inline-flex;
@@ -41,6 +43,7 @@ nav {
 .nav_links li span {
     position: absolute;
     top: -1rem;
+    right: -.8rem;
     width: max-content;
     font-family: var(--text-font);
     background: var(--color-secondary);
@@ -48,7 +51,7 @@ nav {
     font-size: 0.6rem;
     border-radius: 10px;
     user-select: none;
-    padding: 3px;
+    padding:1px 5px;
 }
 .nav_links li a {
     font-family: var(--text-font);
