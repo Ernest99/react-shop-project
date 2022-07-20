@@ -34,11 +34,12 @@ const Nav = () => {
                 <button><BsCartFill/><span>0</span></button>
                 <button><BsFillHeartFill/><span>2</span></button>
                 <button><FaUserCircle/></button>
-            </div>
-        </div>
-        <div className="toggle">
+                <div className="toggle">
           <VscThreeBars className='menu'/>
         </div>
+            </div>
+        </div>
+        
     </nav>
     </>
   )
