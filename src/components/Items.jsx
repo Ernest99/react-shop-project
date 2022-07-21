@@ -132,7 +132,10 @@ const Items = () => {
                 <div className="item_box" key={id}>
                     <div className="image">
                     <img src={Img} alt={name} />
+                    <div className="btn_center">
                     <Btn className="item_btn btn-shop" text="Add To Cart"/>
+                    </div>
+                    
                     </div>
         
         <div className="detail">
