@@ -5,14 +5,14 @@ import Shop from "./components/Shop";
 import Feature from "./components/Feature";
 import About from "./components/About";
 import Contact from "./components/Contact";
-// import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   return (
    <>
    <Routes>
-    {/* <ScrollToTop/> */}
+    <ScrollToTop/>
     <Route path="/" element={
       <>
       <Header/>
