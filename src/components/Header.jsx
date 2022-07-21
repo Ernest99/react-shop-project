@@ -20,7 +20,7 @@ const Header = () => {
             <h1>NEW ARRIVALS</h1>
             </Bounce>
             <div className="btn">
-                <Btn text="SHOP NOW"/>
+                <Btn className="btn-shop" text="SHOP NOW"/>
             </div>
         </div>
       </header>

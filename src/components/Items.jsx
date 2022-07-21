@@ -3,6 +3,7 @@ import './items.css'
 import {BsFilter} from 'react-icons/bs'
 import {BiSearch} from 'react-icons/bi'
 import {AiOutlineHeart} from 'react-icons/ai'
+import Btn from './Btn'
 const Items = () => {
 
     const data = [
@@ -131,6 +132,7 @@ const Items = () => {
                 <div className="item_box" key={id}>
                     <div className="image">
                     <img src={Img} alt={name} />
+                    <Btn className="item_btn btn-shop" text="Add To Cart"/>
                     </div>
         
         <div className="detail">

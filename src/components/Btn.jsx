@@ -1,9 +1,9 @@
 import React from 'react'
 import './header.css'
-const Btn = ({text}) => {
+const Btn = ({text,className}) => {
   return (
     <div>
-        <a href="/shop" className='btn-shop'>{text}</a>
+        <a href="/shop" className={className}>{text}</a>
     </div>
   )
 }

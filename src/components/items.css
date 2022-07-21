@@ -63,6 +63,19 @@
 .image{
     overflow: hidden;
     transition: var(--transition);
+    position: relative;
+}
+.item_btn{
+    position: absolute;
+    bottom: -60px;
+    left: 60px;
+    transition: var(--transition);
+}
+.item_box:hover .item_btn{
+background: var(--white);
+color: var(--black);
+bottom: 20px;
+transition: var(--transition);
 }
 .detail{
     display: flex;
