@@ -114,15 +114,15 @@ a.active,.nav_links li a:hover {
 /* media query */
 
 @media (max-width: 915px) {
-    /* .nav_links{
+    .nav_links{
         display: none;
         position: absolute;
         top: 80%;
         left: 0;
-        background: red;
+        /* background: red; */
         padding: 1.2rem 0;
         width: 100%;
-    } */
+    }
     .menu{
         display: block;
     }
