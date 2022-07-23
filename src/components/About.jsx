@@ -1,11 +1,14 @@
 import React from 'react'
 import Nav from './Nav'
+import './about.css'
 
 const About = () => {
   return (
     <div>
         <Nav/>
-        <h1>About</h1>
+        <div className="about">
+          <h1>#ABOUT</h1>
+        </div>
     </div>
   )
 }

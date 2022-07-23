@@ -5,7 +5,10 @@ const Feature = () => {
   return (
     <div>
         <Nav/>
-    <h1>Feature</h1>
+        <section>
+        <h1>Feature</h1>
+        </section>
+    
     </div>
   )
 }
