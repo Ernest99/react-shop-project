@@ -46,7 +46,14 @@ const Header = () => {
       <section>
         <h2 className='item_head'>PRODUCT OVERVIEW</h2>
         <Items/>
+        <div className="center">
+          <Btn text={'Load More'} className="btn-shop"/>
+        </div>
       </section>
+      <section className='newletter'>
+        <h1>Get 50% Discount</h1>
+      </section>
+      
     </>
   )
 }

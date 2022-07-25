@@ -37,7 +37,7 @@ const menuToggle = () => menuRef.current.classList.toggle('nav_active');
         <div className="nav_r">
             <div className="nav_icons">
                
-                <button><BsBagFill/><span>0</span></button>
+                <button><BsBagFill/><span>2</span></button>
                 <button><FaUserCircle/></button>
                 <div className="toggle">
           <VscThreeBars className='menu' onClick={menuToggle}/>

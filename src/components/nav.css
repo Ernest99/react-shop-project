@@ -131,7 +131,7 @@ a.active,.nav_links li a:hover {
         z-index: -1;
         padding: 8%;
         transition: 0.3s ease;
-       
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
     .nav_links li {
         padding-top: 2rem;

@@ -11,7 +11,10 @@
   list-style: none;
 }
 ::-webkit-scrollbar{
-  display: none;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--color-primary);
 }
 :root{
   --color-primary: #717FE0;
