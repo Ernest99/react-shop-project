@@ -6,7 +6,9 @@ nav {
     justify-content: space-between;
     transition: var(--transition);
     flex-wrap: wrap;
+    position: relative;
 }
+
 .menu{
     font-size: 1.2rem;
     display: none;
@@ -28,12 +30,12 @@ nav {
     gap: 2rem;
     -webkit-gap: 2rem;
     position: relative;
-    /* width: 100%; */
 }
 .logo {
     color: var(--black);
     font-size: 1.2rem;
     font-family: var(--text-font);
+
 
 }
 .logo span {
@@ -114,16 +116,29 @@ a.active,.nav_links li a:hover {
 /* media query */
 
 @media (max-width: 915px) {
+    .nav_l{
+        position: relative;
+    }
     .nav_links{
         display: none;
-        position: absolute;
-        top: 80%;
-        left: 0;
-        /* background: red; */
+        position: fixed;
+        top: 12%;
+        right: 0;
+        background-color: var(--white);
         padding: 1.2rem 0;
         width: 100%;
+        z-index: 100;
+        padding: 8%;
     }
+    .nav_links li {
+        padding-top: 1.8rem;
+    }
+    .nav_links li span{
+        display: none;
+    }
+
     .menu{
         display: block;
     }
+   
 }

@@ -12,6 +12,7 @@ window.addEventListener('scroll', () =>{
    window.pageYOffset > 100 ? nav.classList.add('nav_bg') : nav.classList.remove('nav_bg')
 })
 
+
 //navigation
 const Nav = () => {
   return (

@@ -4,106 +4,123 @@ import {BsFilter} from 'react-icons/bs'
 import {BiSearch} from 'react-icons/bi'
 import {AiOutlineHeart} from 'react-icons/ai'
 import Btn from './Btn'
+import img1 from '../components/assets/f1.jpg'
+import img2 from '../components/assets/f2.jpg'
+import img3 from '../components/assets/f3.jpg'
+import img4 from '../components/assets/f4.jpg'
+import img5 from '../components/assets/f5.jpg'
+import img6 from '../components/assets/f6.jpg'
+import img7 from '../components/assets/f7.jpg'
+import img8 from '../components/assets/f8.jpg'
+import img9 from '../components/assets/n1.jpg'
+import img10 from '../components/assets/n2.jpg'
+import img11 from '../components/assets/n3.jpg'
+import img12 from '../components/assets/n8.jpg'
+import img13 from '../components/assets/n4.jpg'
+import img14 from '../components/assets/n5.jpg'
+import img15 from '../components/assets/n6.jpg'
+import img16 from '../components/assets/n7.jpg'
+
 const Items = () => {
 
     const data = [
         {
             id: 1,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img1,
             name: 'Nike',
-            Price: 12.33
+            Price: 20.00
 
 
         },
         {
             id: 2,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-02.jpg.pagespeed.ic._mIojWDfEX.webp',
+            Img: img2,
             name: 'Nike',
-            Price: 12.33
+            Price: 35.30
         },
         {
             id: 3,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-03.jpg.pagespeed.ic.eOHs429Gtb.webp',
+            Img: img3,
             name: 'Nike',
-            Price: 12.33
+            Price: 18.25
         },
         {
             id: 4,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-04.jpg.pagespeed.ic.1MaP4euDx9.webp',
+            Img: img4,
             name: 'Nike',
-            Price: 12.33
+            Price: 15.33
         },
         {
             id: 5,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img5,
             name: 'Nike',
-            Price: 12.33
+            Price: 9.30
         },
         {
             id: 6,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img6,
             name: 'Nike',
-            Price: 12.33
+            Price: 11.30
         },
         {
             id: 7,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img7,
             name: 'Nike',
-            Price: 12.33
+            Price: 25.50
         },
         {
             id: 8,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img8,
             name: 'Nike',
             Price: 12.33
         },
         {
             id: 9,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img9,
             name: 'Nike',
             Price: 12.33
         },
         {
             id: 10,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img10,
             name: 'Nike',
             Price: 12.33
         },
         {
             id: 11,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img11,
             name: 'Nike',
             Price: 12.33
         },
         {
             id: 12,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img12,
             name: 'Nike',
             Price: 12.33
         },
         {
             id: 13,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img13,
             name: 'Nike',
             Price: 12.33
         },
         {
             id: 14,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img14,
             name: 'Nike',
-            Price: 12.33
+            Price: 10.05
         },
         {
             id: 15,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img15,
             name: 'Nike',
-            Price: 12.33
+            Price: 55.33
         },
         {
             id: 16,
-            Img: 'https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp',
+            Img: img16,
             name: 'Nike',
-            Price: 12.33
+            Price: 45.15
         }
     ]
   return (

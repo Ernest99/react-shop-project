@@ -10,7 +10,9 @@
   text-decoration: none;
   list-style: none;
 }
-
+::-webkit-scrollbar{
+  display: none;
+}
 :root{
   --color-primary: #717FE0;
   --color-secondary: #F74877;
