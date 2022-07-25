@@ -97,6 +97,14 @@ header {
 /* media query */
 @media only screen and (max-width: 546px){
     .content h1{
-font-size: 3rem;
+        font-size: 2.8rem;
+    }
+}
+@media only screen and (max-width:367px){
+    header{
+        background-position: right;
+    }
+    .content h1{
+        font-size: 2.5rem;
     }
 }
