@@ -7,6 +7,7 @@ nav {
     transition: var(--transition);
     flex-wrap: wrap;
     position: relative;
+    z-index: 5;
 }
 
 .menu{
@@ -122,13 +123,14 @@ a.active,.nav_links li a:hover {
     .nav_links{
         display: none;
         position: fixed;
-        top: 12%;
+        top: 0;
         right: 0;
         background-color: var(--white);
         padding: 1.2rem 0;
         width: 100%;
-        z-index: 100;
+        z-index: -1;
         padding: 8%;
+       
     }
     .nav_links li {
         padding-top: 1.8rem;
@@ -138,6 +140,9 @@ a.active,.nav_links li a:hover {
     }
 
     .menu{
+        display: block;
+    }
+    .nav_active{
         display: block;
     }
    

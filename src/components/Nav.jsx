@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 // import {BiSearchAlt2} from 'react-icons/bi'
 import {BsBagFill} from 'react-icons/bs'
 // import {BsFillHeartFill} from 'react-icons/bs'
@@ -6,21 +6,26 @@ import {FaUserCircle} from 'react-icons/fa'
 import {VscThreeBars} from 'react-icons/vsc'
 import { Link } from 'react-router-dom'
 import './nav.css'
+
+
+
 // adding background to nav when window is greater than 100
 window.addEventListener('scroll', () =>{
    const nav = document.querySelector('nav')
    window.pageYOffset > 100 ? nav.classList.add('nav_bg') : nav.classList.remove('nav_bg')
 })
 
-
 //navigation
 const Nav = () => {
+const menuRef = useRef()
+const menuToggle = () => menuRef.current.classList.toggle('nav_active');
+
   return (
     <>
     <nav>
         <div className="nav_l">
 <Link to="/" className='logo'><span>ALPHA</span> STORE</Link>
-<ul className="nav_links">
+<ul className="nav_links" onClick={menuToggle} ref={menuRef}>
     <li><Link to="/" className='active'>Home</Link></li>
     <li><Link to="/shop">Shop</Link></li>
     <li><Link to="/feature">Features</Link><span>New</span></li>
@@ -31,12 +36,11 @@ const Nav = () => {
         </div>
         <div className="nav_r">
             <div className="nav_icons">
-                {/* <button><BiSearchAlt2/></button> */}
+               
                 <button><BsBagFill/><span>0</span></button>
-                {/* <button><BsFillHeartFill/><span>2</span></button> */}
                 <button><FaUserCircle/></button>
                 <div className="toggle">
-          <VscThreeBars className='menu'/>
+          <VscThreeBars className='menu' onClick={menuToggle}/>
         </div>
             </div>
         </div>

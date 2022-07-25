@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './items.css'
 import {BsFilter} from 'react-icons/bs'
 import {BiSearch} from 'react-icons/bi'
@@ -22,13 +22,15 @@ import img15 from '../components/assets/n6.jpg'
 import img16 from '../components/assets/n7.jpg'
 
 const Items = () => {
+const colorRef = useRef()
+const heartColor = () => colorRef.current.classList.toggle('color_heart');
 
     const data = [
         {
             id: 1,
             Img: img1,
             name: 'Nike',
-            Price: 20.00
+            Price: 20.50
 
 
         },
@@ -36,7 +38,7 @@ const Items = () => {
             id: 2,
             Img: img2,
             name: 'Nike',
-            Price: 35.30
+            Price: 35.39
         },
         {
             id: 3,
@@ -54,7 +56,7 @@ const Items = () => {
             id: 5,
             Img: img5,
             name: 'Nike',
-            Price: 9.30
+            Price: 9.38
         },
         {
             id: 6,
@@ -72,7 +74,7 @@ const Items = () => {
             id: 8,
             Img: img8,
             name: 'Nike',
-            Price: 12.33
+            Price: 5.50
         },
         {
             id: 9,
@@ -84,25 +86,25 @@ const Items = () => {
             id: 10,
             Img: img10,
             name: 'Nike',
-            Price: 12.33
+            Price: 30.35
         },
         {
             id: 11,
             Img: img11,
             name: 'Nike',
-            Price: 12.33
+            Price: 22.30
         },
         {
             id: 12,
             Img: img12,
             name: 'Nike',
-            Price: 12.33
+            Price: 7.99
         },
         {
             id: 13,
             Img: img13,
             name: 'Nike',
-            Price: 12.33
+            Price: 8.42
         },
         {
             id: 14,
@@ -157,9 +159,9 @@ const Items = () => {
         
         <div className="detail">
             <h4>{name}</h4>
-            <AiOutlineHeart/>
+            <AiOutlineHeart className="detail_icon" onClick={heartColor}/>
         </div>
-        <p>{Price}</p>
+        <p>₵{Price}</p>
     </div>
             )
         }))

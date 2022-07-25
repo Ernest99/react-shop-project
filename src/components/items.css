@@ -53,13 +53,23 @@
 .item_box{
     object-fit: cover;
     overflow: hidden;
-    transition: 0.5s ease-in;
+    transition: 0.3s ease;
     cursor: pointer;
     width: 100%;
+    padding: .5rem;
+    border-radius: 2px;
+}
+.item_box:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s ease;
 }
 .item_box:hover img{
     transform: scale(1.1);
-    transition: 0.5s ease-in;
+    transition: 0.3s ease;
+}
+.item_box p{
+    padding-top: 5px;
+    font-family: var(--text-font);
 }
 .image{
     overflow: hidden;
@@ -91,6 +101,13 @@ transition: var(--transition);
     color:#CDCCCD;
     font-size: 1.2rem;
     font-family: var(--text-font);
+}
+.detail_icon{
+    font-weight: 600;
+}
+.color_heart{
+    color: var(--color-secondar);
+    
 }
 
 @media(max-width: 915px){
