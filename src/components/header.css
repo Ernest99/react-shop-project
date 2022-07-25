@@ -94,9 +94,9 @@ header {
 
 
 
-
-
-
-
-
 /* media query */
+@media only screen and (max-width: 546px){
+    .content h1{
+font-size: 3rem;
+    }
+}

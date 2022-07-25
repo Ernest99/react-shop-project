@@ -12,7 +12,7 @@ import './nav.css'
 // adding background to nav when window is greater than 100
 window.addEventListener('scroll', () =>{
    const nav = document.querySelector('nav')
-   window.pageYOffset > 100 ? nav.classList.add('nav_bg') : nav.classList.remove('nav_bg')
+   window.pageYOffset > 80 ? nav.classList.add('nav_bg') : nav.classList.remove('nav_bg')
 })
 
 //navigation

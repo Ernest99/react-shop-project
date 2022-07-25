@@ -1,4 +1,4 @@
-import React,{useRef} from 'react'
+import React from 'react'
 import './items.css'
 import {BsFilter} from 'react-icons/bs'
 import {BiSearch} from 'react-icons/bi'
@@ -22,8 +22,6 @@ import img15 from '../components/assets/n6.jpg'
 import img16 from '../components/assets/n7.jpg'
 
 const Items = () => {
-const colorRef = useRef()
-const heartColor = () => colorRef.current.classList.toggle('color_heart');
 
     const data = [
         {
@@ -159,7 +157,7 @@ const heartColor = () => colorRef.current.classList.toggle('color_heart');
         
         <div className="detail">
             <h4>{name}</h4>
-            <AiOutlineHeart className="detail_icon" onClick={heartColor}/>
+            <AiOutlineHeart className="detail_icon"/>
         </div>
         <p>₵{Price}</p>
     </div>

@@ -112,7 +112,15 @@ a.active,.nav_links li a:hover {
     color: var(--color-primary);
     transition: var(--transition);
 }
-
+.toggle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* media query */
 
@@ -130,10 +138,11 @@ a.active,.nav_links li a:hover {
         width: 100%;
         z-index: -1;
         padding: 8%;
+        transition: 0.3s ease;
        
     }
     .nav_links li {
-        padding-top: 1.8rem;
+        padding-top: 2rem;
     }
     .nav_links li span{
         display: none;
