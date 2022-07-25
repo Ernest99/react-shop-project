@@ -52,6 +52,7 @@ const Header = () => {
       </section>
       <section className='newletter'>
         <h1>Get 50% Discount</h1>
+        <Btn text={'Buy Now'} className="btn-shop"/>
       </section>
       
     </>

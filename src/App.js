@@ -22,7 +22,10 @@ function App() {
       </>
     }/>
    
-    <Route path="/shop" element={<Shop/>}/>
+    <Route path="/shop" element={<>
+    <Shop/>
+    <Footer/>
+    </>}/>
     <Route path="/feature" element={<Feature/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<Contact/>}/>

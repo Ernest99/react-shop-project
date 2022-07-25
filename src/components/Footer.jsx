@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import {Link} from 'react-router-dom'
 import Btn from './Btn'
+import * as BsIcons from 'react-icons/bs'
 const Footer = () => {
   return (
     <>
@@ -34,8 +35,14 @@ const Footer = () => {
                     <h4>Get In Touch</h4>
                     <div className="permalinks">
                         <p>
-                            AC271, LAASA LINK C/9, Teshie Camp 2, Accra - Ghana
+                        Any questions? Let us know in store at 8th floor, AC271, LAASA LINK C/9, Teshie Camp 2, Accra - Ghana or call us on <a href="tel:+233265429443">(+233) 265429443</a> 
                         </p>
+                        <div className="social_media">
+                            <BsIcons.BsFacebook className='footer_icon'/>
+                            <BsIcons.BsInstagram className='footer_icon'/>
+                            <BsIcons.BsTwitter className='footer_icon'/>
+                            <BsIcons.BsPinterest className='footer_icon'/>
+                        </div>
                     </div>
                 </div>
                 <div className="footer_mail">
