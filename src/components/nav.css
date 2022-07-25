@@ -112,15 +112,7 @@ a.active,.nav_links li a:hover {
     color: var(--color-primary);
     transition: var(--transition);
 }
-.toggle{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 /* media query */
 
@@ -147,7 +139,15 @@ a.active,.nav_links li a:hover {
     .nav_links li span{
         display: none;
     }
-
+    .toggle{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: var(--white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .menu{
         display: block;
     }
