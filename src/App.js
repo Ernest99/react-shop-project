@@ -5,6 +5,7 @@ import Shop from "./components/Shop";
 import Feature from "./components/Feature";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 
@@ -17,6 +18,7 @@ function App() {
     <Route path="/" element={
       <>
       <Header/>
+      <Footer/>
       </>
     }/>
    
