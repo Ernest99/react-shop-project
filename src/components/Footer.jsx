@@ -1,7 +1,6 @@
 import React from 'react'
 import './footer.css'
 import {Link} from 'react-router-dom'
-import Btn from './Btn'
 import * as BsIcons from 'react-icons/bs'
 const Footer = () => {
   return (
@@ -50,7 +49,7 @@ const Footer = () => {
                     <div className="permalinks">
                         <input type="text" placeholder='Email'/>
                         <div className='footer_btn'>
-                            <Btn text={'subcribe'} className="btn-shop"/>
+                            <button className='news_btn'>subscribe</button>
                         </div>
                     </div>
                 </div>

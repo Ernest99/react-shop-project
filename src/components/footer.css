@@ -72,3 +72,12 @@ footer{
     color: var(--white);
     transition: .3s ease;
 }
+.news_btn{
+    padding: 10px 30px;
+    background: var(--color-primary);
+    border-radius: 30px;
+    color: var(--white);
+    font-family: var(--text-font);
+    border: none;
+    outline: none;
+}

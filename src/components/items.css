@@ -105,10 +105,12 @@ transition: var(--transition);
 .detail_icon{
     font-weight: 600;
 }
-.color_heart{
-    color: var(--color-secondar);
-    
+.detail h4{
+    font-family: var(--text-font);
+    font-size: 13px;
+    color: var(--color-primary);
 }
+
 
 @media(max-width: 915px){
     .item_btn{

@@ -27,7 +27,7 @@ const Items = () => {
         {
             id: 1,
             Img: img1,
-            name: 'Nike',
+            name: 'Multicolors Shirt',
             Price: 20.50
 
 
@@ -35,91 +35,91 @@ const Items = () => {
         {
             id: 2,
             Img: img2,
-            name: 'Nike',
+            name: 'Flower Shirt',
             Price: 35.39
         },
         {
             id: 3,
             Img: img3,
-            name: 'Nike',
+            name: 'Twist Flower Shirt',
             Price: 18.25
         },
         {
             id: 4,
             Img: img4,
-            name: 'Nike',
+            name: 'Zicon Shirt',
             Price: 15.33
         },
         {
             id: 5,
             Img: img5,
-            name: 'Nike',
+            name: 'Black Flower Shirt',
             Price: 9.38
         },
         {
             id: 6,
             Img: img6,
-            name: 'Nike',
+            name: 'Dope Long Sleeve',
             Price: 11.30
         },
         {
             id: 7,
             Img: img7,
-            name: 'Nike',
+            name: 'Chinese Pant',
             Price: 25.50
         },
         {
             id: 8,
             Img: img8,
-            name: 'Nike',
+            name: 'Ladies Top',
             Price: 5.50
         },
         {
             id: 9,
             Img: img9,
-            name: 'Nike',
+            name: 'Dodgeblue Sleeve',
             Price: 12.33
         },
         {
             id: 10,
             Img: img10,
-            name: 'Nike',
+            name: 'Grey Spark Sleeve',
             Price: 30.35
         },
         {
             id: 11,
             Img: img11,
-            name: 'Nike',
+            name: 'White Spark Sleeve',
             Price: 22.30
         },
         {
             id: 12,
             Img: img12,
-            name: 'Nike',
+            name: 'Black Pearl',
             Price: 7.99
         },
         {
             id: 13,
             Img: img13,
-            name: 'Nike',
+            name: 'M&S Top',
             Price: 8.42
         },
         {
             id: 14,
             Img: img14,
-            name: 'Nike',
+            name: 'Jeans Long Sleeve',
             Price: 10.05
         },
         {
             id: 15,
             Img: img15,
-            name: 'Nike',
+            name: 'Cotton Shorts',
             Price: 55.33
         },
         {
             id: 16,
             Img: img16,
-            name: 'Nike',
+            name: 'Army Sleeve',
             Price: 45.15
         }
     ]
@@ -157,7 +157,7 @@ const Items = () => {
         
         <div className="detail">
             <h4>{name}</h4>
-            <AiOutlineHeart className="detail_icon"/>
+            <AiOutlineHeart className="detail_icon" />
         </div>
         <p>₵{Price}</p>
     </div>

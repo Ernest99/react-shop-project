@@ -19,6 +19,7 @@ header {
 .content h1 {
     font-family: var(--head-font);
     font-size: 4rem;
+    color: var(--block);
 }
 .btn {
     margin-top: 1.5rem;
