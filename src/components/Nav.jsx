@@ -1,7 +1,7 @@
 import React from 'react'
-import {BiSearchAlt2} from 'react-icons/bi'
-import {BsCartFill} from 'react-icons/bs'
-import {BsFillHeartFill} from 'react-icons/bs'
+// import {BiSearchAlt2} from 'react-icons/bi'
+import {BsBagFill} from 'react-icons/bs'
+// import {BsFillHeartFill} from 'react-icons/bs'
 import {FaUserCircle} from 'react-icons/fa'
 import {VscThreeBars} from 'react-icons/vsc'
 import { Link } from 'react-router-dom'
@@ -31,9 +31,9 @@ const Nav = () => {
         </div>
         <div className="nav_r">
             <div className="nav_icons">
-                <button><BiSearchAlt2/></button>
-                <button><BsCartFill/><span>0</span></button>
-                <button><BsFillHeartFill/><span>2</span></button>
+                {/* <button><BiSearchAlt2/></button> */}
+                <button><BsBagFill/><span>0</span></button>
+                {/* <button><BsFillHeartFill/><span>2</span></button> */}
                 <button><FaUserCircle/></button>
                 <div className="toggle">
           <VscThreeBars className='menu'/>
