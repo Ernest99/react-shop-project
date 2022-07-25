@@ -35,7 +35,7 @@ const Footer = () => {
                     <h4>Get In Touch</h4>
                     <div className="permalinks">
                         <p>
-                        Any questions? Let us know in store at 8th floor, AC271, LAASA LINK C/9, Teshie Camp 2, Accra - Ghana or call us on <a href="tel:+233265429443">(+233) 265429443</a> 
+                        Any questions? Let us know in store at 8th floor, AC271, LAASA LINK C/9, Teshie Camp 2, Accra - Ghana or call us on <a href="tel:+233265429443"><br/>(+233) 265429443</a> 
                         </p>
                         <div className="social_media">
                             <BsIcons.BsFacebook className='footer_icon'/>

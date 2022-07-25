@@ -41,6 +41,9 @@ footer{
     font-family: var(--text-font);
     font-size: .8rem;
 }
+.permalinks a{
+    color: var(--color-primary)
+}
 .footer_flex input{
     width: 100%;
     padding: 10px 0px;
