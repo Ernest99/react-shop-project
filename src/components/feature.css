@@ -1,0 +1,61 @@
+.feature_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    font-family: var(--text-font);
+}
+.f_left,.f_right{
+    padding: 1rem;
+
+}
+.f_img img{
+    width: 100%;
+    max-width: 550px;
+}
+.f_right h4{
+font-size: .8rem;
+padding-bottom: 1.5rem;
+}
+.f_right h2{
+    font-size: 1.8rem;
+}
+.f_right h3{
+    font-size: 1.2rem;
+}
+.option{
+    margin-top: .5rem;
+    margin-bottom: .3rem;
+}
+select{
+    padding: 5px 1px;
+    font-family: var(--text-font);
+    outline: none;
+
+}
+.quantity{
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+.quantity input{
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    padding: .5rem;
+    outline: none;
+    font-family: var(--text-font);
+}
+.quantity button{
+    background: var(--color-primary);
+    font-family: var(--text-font);
+    padding: .5rem;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+
+}
+h2.product_details{
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
