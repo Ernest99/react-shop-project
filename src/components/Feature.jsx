@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Nav from './Nav'
 import './feature.css'
 import fImage from '../components/assets/f4.jpg'
@@ -6,6 +6,7 @@ import Items from './Items'
 import Footer from '../components/Footer'
 
 const Feature = () => {
+  const [counter, setCounter] = useState(0)
   return (
     <div>
         <Nav/>
@@ -30,7 +31,11 @@ const Feature = () => {
               </select>
             </div>
             <div className="quantity">
-              <input type="number" placeholder='1'/>
+             <div className="counter">
+              <button onClick={()=>setCounter(counter - 1)}>-</button>
+              <span>{counter}</span>
+              <button onClick={()=>setCounter(counter + 1)}>+</button>
+             </div>
               <button>Add To Cart</button>
             </div>
             <h2 className='product_details'>Product Details</h2>
