@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import fImg2 from '../components/assets/f2.jpg'
 import fImg5 from '../components/assets/f5.jpg'
 import fImg1 from '../components/assets/f1.jpg'
+import fImg3 from '../components/assets/f3.jpg'
 
 const Feature = () => {
   const [counter, setCounter] = useState(0)
@@ -22,7 +23,7 @@ const Feature = () => {
             <div className="gallery">
               <img src={fImg2} alt="" />
               <img src={fImg5} alt="" />
-              <img src={fImage} alt="" />
+              <img src={fImg3} alt="" />
               <img src={fImg1} alt="" />
             </div>
           </div>

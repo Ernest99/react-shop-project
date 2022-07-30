@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import Nav from './Nav'
 import './login.css'
 import Footer from './Footer'
@@ -11,7 +11,7 @@ const Login = () => {
 <div className="login_container">
     <form action="#">
         <div className="logo login_logo">
-            <Link to='/' className='Logo'><span>ALPHA</span> STORE</Link>
+           <h4 className='Logo'>Come On In</h4>
         </div>
         <div className="input_field">
             <label>Email</label>
