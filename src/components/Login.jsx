@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Nav from './Nav'
 import './login.css'
+import Footer from './Footer'
 const Login = () => {
   return (
     <>
+    <Nav/>
     <div className="login">
 <div className="login_container">
     <form action="#">
@@ -20,7 +23,7 @@ const Login = () => {
     </form>
 </div>
     </div>
-    
+    <Footer/>
     </>
   )
 }
