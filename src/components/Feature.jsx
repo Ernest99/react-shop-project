@@ -4,6 +4,9 @@ import './feature.css'
 import fImage from '../components/assets/f4.jpg'
 import Items from './Items'
 import Footer from '../components/Footer'
+import fImg2 from '../components/assets/f2.jpg'
+import fImg5 from '../components/assets/f5.jpg'
+import fImg1 from '../components/assets/f1.jpg'
 
 const Feature = () => {
   const [counter, setCounter] = useState(0)
@@ -15,6 +18,12 @@ const Feature = () => {
           <div className="f_left">
             <div className="f_img">
               <img src={fImage} alt="" />
+            </div>
+            <div className="gallery">
+              <img src={fImg2} alt="" />
+              <img src={fImg5} alt="" />
+              <img src={fImage} alt="" />
+              <img src={fImg1} alt="" />
             </div>
           </div>
           <div className="f_right">

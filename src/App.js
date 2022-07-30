@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Login from "./components/Login";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <Route path="/feature" element={<Feature/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<Contact/>}/>
+    <Route path="/signin" element={<Login/>}/>
 
    </Routes>
    
