@@ -13,3 +13,35 @@
     font-family: var(--text-font);
     color: var(--white);
 }
+.about_section{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 1.8rem;
+   
+   
+}
+.about_btn{
+    margin-top: 1.2rem;
+}
+
+.about_r h1{
+    font-family: var(--text-font);
+}
+.bio{
+    padding-top: 1.8rem;
+}
+.bio p{
+    font-size: 1rem;
+    font-family: var(--text-font);
+}
+
+
+
+@media only screen and (max-width: 915px) {
+    .about_section{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}
