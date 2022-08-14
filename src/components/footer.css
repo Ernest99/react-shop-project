@@ -83,3 +83,21 @@ footer{
     border: none;
     outline: none;
 }
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.copyright p{
+    color: var(--white);
+    font-family: var(--text-font);
+}
+.copyright p span{
+    color: var(--color-primary);
+}
+.copyright img{
+    width: 100%;
+    max-width: 200px;
+}
