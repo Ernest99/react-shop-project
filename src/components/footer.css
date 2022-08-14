@@ -89,6 +89,8 @@ footer{
     align-items: center;
     flex-wrap: wrap;
     margin-top: 2rem;
+    gap: 1.2rem;
+    -webkit-gap: 1.2rem;
 }
 .copyright p{
     color: var(--white);
