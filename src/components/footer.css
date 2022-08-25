@@ -95,11 +95,12 @@ footer{
 .copyright p{
     color: var(--white);
     font-family: var(--text-font);
+    font-size: .8rem;
 }
 .copyright p span{
     color: var(--color-primary);
 }
 .copyright img{
     width: 100%;
-    max-width: 200px;
+    max-width: 150px;
 }
