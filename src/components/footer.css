@@ -104,3 +104,9 @@ footer{
     width: 100%;
     max-width: 150px;
 }
+.my_link{
+    color: var(--color-primary);
+}
+.love{
+    color: var(--color-secondary);
+}

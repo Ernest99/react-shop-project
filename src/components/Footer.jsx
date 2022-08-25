@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import {Link} from 'react-router-dom'
 import * as BsIcons from 'react-icons/bs'
+import {AiFillHeart} from 'react-icons/ai'
 import Payment from '../components/assets/pay.png'
 const Footer = () => {
   return (
@@ -56,7 +57,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright">
-                <p>&copy;copyright 2022, <span>ALPHA</span> STORE</p>
+                <p>&copy;copyright 2022, <span>ALPHA</span> STORE <span>Made with <AiFillHeart className='love'/> By <a href="https://ernestmyportfolio.netlify.app/" className='my_link'>Ernest Ghansah.</a></span></p>
                <div>
                <Link to='/'><img src={Payment} alt="" /></Link>
                </div>
