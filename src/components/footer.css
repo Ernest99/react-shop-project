@@ -106,6 +106,8 @@ footer{
 }
 .my_link{
     color: var(--color-primary);
+    text-decoration: underline;
+    
 }
 .love{
     color: var(--color-secondary);
